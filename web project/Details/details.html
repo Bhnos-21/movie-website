@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details - Cinex</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="details.css">
+</head>
+<body>
+
+    <div class="container">
+        <aside class="side">
+            <div class="logo">
+                <i class="fa-solid fa-film"></i>
+                <span>Cinex</span>
+            </div>
+            <div class="menu">
+                <h3 class="title">Main Menu</h3>
+                <a href="../Home/home.html" class="item">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </a>
+                <a href="../Explore/explore.html" class="item active">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <span>Explore</span>
+                </a>
+                <a href="../Genres/genres.html" class="item">
+                    <i class="fa-solid fa-film"></i>
+                    <span>Genres</span>
+                </a>
+                <a href="../Favorites/favorites.html" class="item">
+                    <i class="fa-solid fa-heart"></i>
+                    <span>Favourite</span>
+                </a>
+                <a href="../Profile/profile.html" class="item">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Profile</span>
+                </a>
+            </div>
+            <div class="auth">
+                <a href="../Auth/signup.html" class="auth-btn">
+                    <i class="fa-solid fa-user-plus"></i>
+                    <span>Sign Up</span>
+                </a>
+                <a href="../Auth/login.html" class="auth-btn">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    <span>Login</span>
+                </a>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <div id="movie-detail-container">
+                <p style="text-align:center; margin-top:50px;">Loading movie details...</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="../data.js"></script>
+    <script src="details.js"></script>
+</body>
+</html>

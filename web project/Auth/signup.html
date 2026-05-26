@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Cinex</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body class="auth-body">
+
+    <div class="auth-container">
+        <div class="auth-card">
+            <div class="auth-logo">
+                <i class="fa-solid fa-film"></i> Cinex
+            </div>
+            <h2>Create Account</h2>
+            <p>Enter your details to get started.</p>
+            
+            <div id="signupError" class="error-msg"></div>
+            
+            <form id="signupForm">
+                <div class="input-group">
+                    <label>Full Name</label>
+                    <input type="text" id="signupName" placeholder="John Doe" required>
+                </div>
+                <div class="input-group">
+                    <label>Email Address</label>
+                    <input type="email" id="signupEmail" placeholder="user@cinex.com" required>
+                </div>
+                <div class="input-group">
+                    <label>Password</label>
+                    <input type="password" id="signupPassword" placeholder="Create a password" required>
+                </div>
+                
+                <button type="submit" class="btn-auth">Sign Up</button>
+                
+                <div class="auth-footer">
+                    <p>Already have an account? <a href="login.html">Log In</a></p>
+                    <a href="../Explore/explore.html" class="back-link">Back to Explore</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="auth.js"></script>
+</body>
+</html>
